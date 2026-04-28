@@ -30,6 +30,8 @@ public class Main {
         bib.agregarLibro("Harry Potter");
 
         bib.mostrarLibros();
+        bib.verificarLibro("Harry Potter");
+        bib.verificarLibro("La Odisea");
         bib.totalLibros();
 
 

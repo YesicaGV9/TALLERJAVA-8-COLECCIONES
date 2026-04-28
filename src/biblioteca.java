@@ -27,6 +27,14 @@ public class biblioteca {
         }
     }
 
+    public void verificarLibro(String titulo) {
+        if (libros.contains(titulo)) {
+            System.out.println("El libro " + titulo + " esta disponible.");
+        } else {
+            System.out.println("El libro " + titulo + " no esta disponible.");
+        }
+    }
+
         // sacar la cuenta de cuantos unicos hay
     public void totalLibros() {
         System.out.println("El total de libros unicos en biblioteca: " + libros.size());
